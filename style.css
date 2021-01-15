@@ -430,6 +430,9 @@ header .header-menu .logo a span, header .header-menu .menu-hover span {
   margin-top: 15px;
   color: #fff;
 }
+.block-title-2 .box .learn-more button:hover {
+  background-color: rgba(144, 144, 144, 0.075);
+}
 
 .block-3 {
   width: 100%;
@@ -495,6 +498,9 @@ header .header-menu .logo a span, header .header-menu .menu-hover span {
   border: rgba(255, 255, 255, 0.25) 1px solid;
   border-radius: 4px;
 }
+.contact-info button:hover {
+  background-color: rgba(255, 255, 255, 0.075);
+}
 
 footer {
   cursor: pointer;
@@ -537,6 +543,11 @@ footer .icons .round {
   height: 64px;
   width: 64px;
   color: #fff;
+}
+footer .icons .round:hover {
+  color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.25);
 }
 footer .info-template {
   font-size: 13px;

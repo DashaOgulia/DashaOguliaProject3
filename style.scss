@@ -230,6 +230,9 @@ header{
                     text-align: center;
                     margin-top:15px;
                     color:$text-color;
+                    &:hover{
+                        background-color: rgba(144, 144, 144, 0.075);
+                    }
                 }
             }
         }
@@ -305,6 +308,9 @@ button{
     color: #fff;
     border: rgba(255, 255, 255, 0.25) 1px solid;
     border-radius: 4px;
+    &:hover{
+        background-color: rgba(255, 255, 255, 0.075);
+    }
 }
 }
 
@@ -348,6 +354,12 @@ footer{
                 height: 64px;
                 width: 64px;
                 color:$text-color;
+
+                &:hover{
+                    color: rgba(255, 255, 255, 0.25);
+                    background-color: rgba(255, 255, 255, 0);
+                    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.25);
+                }
             }
         }
     .info-template{
