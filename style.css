@@ -589,7 +589,7 @@ footer .info-template span {
   }
 
   .block-title-2 {
-    width: 80%;
+    width: 100%;
   }
 }
 .contact-info {
@@ -616,7 +616,6 @@ footer .info-template span {
 }
 @media (max-width: 480px) {
   header {
-    min-width: 320px;
     background-color: #0E0E0E;
     top: 0;
   }

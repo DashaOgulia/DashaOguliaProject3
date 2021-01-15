@@ -412,7 +412,7 @@ footer{
         line-height: 50px;
 }
 .block-title-2{
-    width:80%;
+    width:100%;
     
 }
 
@@ -447,7 +447,6 @@ footer{
 
 @media (max-width: 480px){
 header{
-    min-width:320px;
     background-color:$back-color;
     top: 0;
    .header-menu {
