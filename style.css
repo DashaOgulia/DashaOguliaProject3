@@ -271,6 +271,10 @@ header {
   padding: 0 15px;
   top: 20px;
 }
+header.alter-red {
+  top: 0;
+  background: #f64242;
+}
 header .col-xs-12 {
   flex: 1;
 }
@@ -364,6 +368,7 @@ header .header-menu .menu-app .container .col-xs-12 nav .transform-menu {
   visibility: visible;
   opacity: 1;
   transform: translateX(0px);
+  box-shadow: 0 0 1.5em 0 rgba(0, 0, 0, 0.66);
 }
 header .header-menu .menu-app .container .col-xs-12 nav .nav-mobile-menu {
   width: 15px;
@@ -403,16 +408,12 @@ header .header-menu .menu-app .container .col-xs-12 nav .nav-mobile-menu span:nt
 
 .block {
   justify-content: center;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   min-height: 100vh;
   border-top: 0;
   overflow: hidden;
   opacity: 0.75;
   display: flex;
   align-items: center;
-  padding: 15px 0;
 }
 
 .block-1 {
@@ -434,6 +435,9 @@ header .header-menu .menu-app .container .col-xs-12 nav .nav-mobile-menu span:nt
   background: url(images/banner2.jpg) no-repeat center;
   background-size: cover;
 }
+.block-2.alter-block {
+  padding: 80px 0px;
+}
 
 .block-title-2 {
   width: 960px;
@@ -441,7 +445,6 @@ header .header-menu .menu-app .container .col-xs-12 nav .nav-mobile-menu span:nt
 }
 .block-title-2 .box {
   background: rgba(0, 0, 0, 0.7);
-  border-radius: 4px;
   overflow: hidden;
   padding: 64px;
   display: block;
@@ -460,12 +463,32 @@ header .header-menu .menu-app .container .col-xs-12 nav .nav-mobile-menu span:nt
 .block-title-2 .box .title span {
   color: #fff;
   font-size: 20px;
-  margin: 10px;
+  margin: 15px;
+}
+.block-title-2 .box .left {
+  text-align: left;
+}
+.block-title-2 .box .slider-action .privious, .block-title-2 .box .slider-action .next {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+.block-title-2 .box .slider-action .privious:hover, .block-title-2 .box .slider-action .next:hover {
+  background-color: rgba(144, 144, 144, 0.075);
+  border: none;
+}
+.block-title-2 .box .slider-action .label {
+  display: none;
 }
 .block-title-2 .box .description {
   color: #fff;
   font-size: 15px;
-  margin: 25px 0px;
+  margin: 25px 15px;
+}
+.block-title-2 .box .description p {
+  margin: 16px 0px;
 }
 .block-title-2 .box .learn-more button {
   background-color: transparent;
@@ -481,6 +504,10 @@ header .header-menu .menu-app .container .col-xs-12 nav .nav-mobile-menu span:nt
 }
 .block-title-2 .box .learn-more button:hover {
   background-color: rgba(144, 144, 144, 0.075);
+}
+.block-title-2 .box .slider-action {
+  display: flex;
+  justify-content: space-between;
 }
 
 .block-3 {
@@ -525,7 +552,7 @@ header .header-menu .menu-app .container .col-xs-12 nav .nav-mobile-menu span:nt
   border: rgba(255, 255, 255, 0.25) solid 1px;
   color: inherit;
   display: block;
-  padding: 0 1em;
+  padding: 0 16px;
   width: 90%;
   margin-bottom: 15px;
 }
@@ -535,7 +562,7 @@ header .header-menu .menu-app .container .col-xs-12 nav .nav-mobile-menu span:nt
 }
 .contact-info form label {
   display: block;
-  font-size: 0.9em;
+  font-size: 14px;
   margin-bottom: 16px;
 }
 .contact-info button {
@@ -616,6 +643,10 @@ footer .info-template span {
   .block-title h1 {
     font-size: 96px;
   }
+
+  .block-title-2 .box {
+    margin: 40px;
+  }
 }
 /*mobile only*/
 @media (max-width: 767px) {
@@ -624,6 +655,10 @@ footer .info-template span {
   }
   .menu-app .menu {
     padding: 10px 0px;
+  }
+
+  .block-1 h1 {
+    font-size: 90px;
   }
 
   .block-title-2 {
@@ -685,6 +720,10 @@ footer .info-template span {
 
   header .header-menu .menu-app .container .col-xs-12 nav .menu {
     max-width: 200px;
+  }
+
+  .block {
+    padding: 15px 0;
   }
 
   .block-title h1 {
