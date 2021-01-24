@@ -1,25 +1,25 @@
-@media(min-width:768px){
-    @for $i from 1 through 12{
-        .col-sm-#{$i}{
-            flex:0 0 parcentage($i/12);
-            max-width:parcentage($i/12);
-        }
-    }
-}
+// @media(min-width:768px){
+//     @for $i from 1 through 12{
+//         .col-sm-#{$i}{
+//             flex:0 0 parcentage($i/12);
+//             max-width:parcentage($i/12);
+//         }
+//     }
+// }
 
-@media(min-width:992px){
-    @for $i from 1 through 12{
-        .col-md-#{$i}{
-            flex:0 0 parcentage($i/12);
-            max-width:parcentage($i/12);
-        }
-    }
-}
-@for $i from 1 through 12{
-    .col-xs-#{$i}{
-        flex:0 0 parcentage($i/12);
-        max-width:parcentage($i/12);
-    }
-}
+// @media(min-width:992px){
+//     @for $i from 1 through 12{
+//         .col-md-#{$i}{
+//             flex:0 0 parcentage($i/12);
+//             max-width:parcentage($i/12);
+//         }
+//     }
+// }
+// @for $i from 1 through 12{
+//     .col-xs-#{$i}{
+//         flex:0 0 parcentage($i/12);
+//         max-width:parcentage($i/12);
+//     }
+// }
 
 

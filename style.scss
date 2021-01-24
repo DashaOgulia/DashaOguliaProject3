@@ -22,12 +22,31 @@ h1, h2, h3, h4, h5, h6{
         font-weight: bold;
         text-transform: uppercase;
     }
+    h2{
+        font-size:25px;
+    }
+    h3{
+        font-size:20px;
+    }
+    h4{
+        font-size:16px;
+    }
+    h5{
+        font-size:13px;
+    }
+    h6{
+        font-size:10px;
+    }
+
+    p{
+        font-size:14px;
+    }
 
 .container{
     padding-left:15px;
     padding-right:15px;
-    margin-left: auto;
-    margin-right:auto;
+    margin:auto;
+    
         .row{
     display:flex;
     margin-left: -15px;
@@ -51,6 +70,7 @@ header{
     z-index: 3;
     padding: 0 15px;
     top:20px; 
+    
     
 
     &.alter-red{
@@ -87,6 +107,7 @@ header{
                 display: flex;
                 align-items: center;
                 left: 10px;
+                z-index: 5;
 
                 &:hover{
                     background-color:transparent;
@@ -211,6 +232,7 @@ header{
     opacity: .75;
     display: flex;
     align-items: center;
+       
 
 }
 
@@ -397,37 +419,312 @@ header{
     }
 }
 
-// .block-last-pg{
-//     min-height: auto;
-//     .block-black{
-//         width:100%;
-    
-    
-//     .block-title{
-//         display:flex;
 
-//         &:first-child {
-//             padding-top: 80px;
-//         }
-//     }
-//     .block-title-2{
-//         padding: 10px;
+section {
 
-//         h3, h2{
-//             padding:10px;
-//             text-transform: uppercase;
-//             }
-//         p{
-//             font-size: 14px;
-//             padding:10px;
-//             font-family: "Open Sans", sans-serif;
-//             line-height: 1.65;
+    &.block{
+        .block-alt-third{
+            padding:80px 20px;
+                .block-bk-flex{
+                    display: flex;
+                        .block-bk{
+                            margin:20px;
+                            width:100%;
+                            
+                            
+                             h2, h3, h4, h5, h6, p{
+                                 padding:15px 0px;
+                                 line-height: 25px;
 
-//         }
-//         }
-//     }
-// }
-   
+                             }
+                             .title{
+                                 &.pad{
+                                     padding-right:25px;
+                                     line-height: 25px;
+
+                                     ul,ol{
+                                         
+                                         li{
+                                            padding-left: 8px;
+                                         }
+                                     }
+                                }
+                                    ul {
+                                        list-style: disc;
+                                    }
+                                    ol{
+                                        list-style: decimal;
+                                    }
+                                    .list-alt{
+                                        list-style: none;
+                                        
+                                    }
+                                    .icons{
+                                        display: flex;
+                                        
+
+                                        .twitter{
+                                            width:35px;
+                                            height:35px;
+                                            background:url(images/ball.png) no-repeat center;
+                                           
+                                            border:none;
+                                        }
+                                        .facebook{
+                                            width:35px;
+                                            height:35px;
+                                            background:url(images/face-btn.png) no-repeat center;
+                                            border:none;
+                                        }
+                                        .bird{
+                                            width: 35px;
+                                            height:35px;
+                                            background:url(images/bird-btn.png) no-repeat center;
+                                            border:none;
+                                        }
+                                    }
+
+                                    dd{
+                                        margin-left: 2em;
+                                    }
+                                    blockquote{
+                                        border-left: solid 4px;
+                                        font-style: italic;
+                                        margin: 0 0 32px 0;
+                                        padding: 4px 0 4px 32px;
+                                        border-left-color: rgba(144, 144, 144, 0.25);
+                                        line-height: 25px;
+                                    }
+                                   
+                            }
+                            .table{
+                                table{
+                                    width:100%;
+                                        thead{
+                                            font-size: 15px;
+                                            font-weight: bold;
+                                            text-align: left;
+
+                                            th{
+                                                padding: 0 10px 10px 10px;
+                                            }
+                                        }
+                                        tbody{
+                                            font-size: 15px;
+                                            text-align: left;
+                                            tr{
+                                                
+                                                border: solid 1px;
+                                                border-left: 0;
+                                                border-right: 0;
+                                                border-color: rgba(144, 144, 144, 0.25);
+                                                    td{
+                                                        padding: 10px;
+                                                    }
+
+                                                &:nth-child(2n + 1){
+                                                    background-color: rgba(144, 144, 144, 0.075);
+                                                }
+                                            }
+                                        }
+                                        tfoot{
+                                            td{
+                                                padding:10px;
+                                            }
+                                        }
+                                    }
+                                }
+                               
+
+
+                            
+                           .block-style{
+                                max-width: -webkit-fill-available;
+                               .action{
+                                   display:flex;
+                                   align-items: center;
+                                        li{
+                                            margin:25px 15px 25px 0px;
+                                            
+
+                                            a, span, input{
+
+                                                &.button{
+                                                    padding: 10px 25px;
+                                                    border-radius: 4px;
+                                                    border: 0;
+                                                    cursor: pointer;
+                                                    font-weight: bold;
+                                                    height: 40px;
+                                                    text-align: center;
+                                                    text-decoration: none;
+                                                    text-transform: uppercase;
+                                                    background-color: #5a5a5a;
+                                                    color: $text-color;
+                                                       &.special{
+                                                        background-color: $primary-color;
+                                                    
+                                                       }
+                                                       &.btn-alt{
+                                                        background-color: transparent;
+                                                        box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
+                                                       }
+                                                       &.big{
+                                                           font-size: 26px;
+                                                       }
+                                                       &.small{
+                                                        font-size: 12px;
+
+                                                       }
+                                                       &.fit{
+                                                        padding: 10px 80px;
+                                                       
+                                                       }
+                                                       &.fit-s{
+                                                        padding: 10px 50px;
+
+                                                       }
+                                                       &.disabled{
+                                                        opacity: 0.25; 
+                                                       }
+                                                      
+                                                 }
+
+                                                
+                                            }
+
+                                        }
+                                  
+                               }
+                               form{
+                                
+                                    .block-bk{
+                                        &:first-child{
+                                           margin-left:0px;
+                                           margin-right: 20px;
+                                          
+                                            
+                                        }
+                                        input{
+                                            width: 100%;
+                                            height: 40px;
+                                            background: rgba(144, 144, 144, 0.075);
+                                            border-color: rgba(144, 144, 144, 0.25);
+                                            padding: 0px 10px;  
+                                            
+                                           
+                                        }
+                                        .block-radio{
+                                            padding: 15px 15px 15px 0px;
+                                        }
+                                        
+
+                                    }
+                                    .select{
+
+                                        select{
+                                        width: 100%;
+                                        height: 40px;
+                                        background: rgba(144, 144, 144, 0.075);
+                                        border-color: rgba(144, 144, 144, 0.25); 
+                                        color:$text-color;
+                                        padding: 0px 10px;
+
+                                        }
+                                    }
+                                    .block-bk-flex{
+                                        justify-content: space-between;
+                                       
+                                        .block-radio{
+                                            padding: 15px 15px 15px 0px;
+                                        }
+                                    }
+
+                                    .block-textarea{
+                                        margin: 20px 0px;
+
+                                        textarea{
+                                            width:95%;
+                                            background: rgba(144, 144, 144, 0.075);
+                                            border-color: rgba(144, 144, 144, 0.25); 
+                                            color:$text-color;
+                                            padding: 10px 16px;
+                                            border-radius: 4px;
+                                            line-height: 25px;
+                                                &::placeholder{
+                                                    font-size:14px;
+                                                    
+
+                                                }
+                                            
+
+                                        }
+                                        
+                                    }
+                                    
+
+                                }
+
+                           }   
+                           .img{
+                            border-radius: 4px;
+                            display: block;
+                            }
+                            .image.left{
+                                float: left;
+                                margin: 0 25px 16px 0;
+                                top: 4px;
+                             }  
+
+                             .image.right{
+                                float: right;
+                                margin: 0 0 16px 25px;
+                                top: 4px;
+                             }  
+                             .box-black{
+                                background: black;
+                                border-radius: 6px;
+                                padding: 64px;
+                             }
+                        }
+                                       
+                }
+                                   
+                                 
+            .bold{
+                font-weight: bold;
+            }
+            .italic{
+                font-style:italic;
+            }
+            .sup{
+                vertical-align: super;
+            }
+            .sub{
+                vertical-align: sub;
+            }
+            .underlined{
+                text-decoration: underline;
+            }
+            code{
+                border-radius: 4px;
+                border: solid 1px;
+                font-family: "Courier New", monospace;
+                font-size: 15px;
+                margin: 0 5px;
+                padding: 5px 9px;
+                background: rgba(144, 144, 144, 0.075);
+                border-color: grey;
+            }
+            a{    
+                color:$primary-color;
+                text-decoration: underline;
+            }
+        }
+                             
+    }
+}
+        
 
 
 footer{
@@ -495,6 +792,7 @@ footer{
 
 
 @media(min-width:768px){
+   
     .container{
         max-width:720px;
     }
@@ -541,6 +839,15 @@ footer{
 @media(min-width:992px){
     .container{
         max-width:960px;
+        .col-md-6{
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    
+        .col-md-12{
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
     }
     header{
         height: 50px;
@@ -581,41 +888,44 @@ footer{
 
 
 @media (max-width: 480px){
-header{
-    background-color:$back-color;
-    top: 0;
-   .header-menu {
-   .logo a, .menu-hover{
-       font-size:14px}
-   }
+    body{
+    
+        header{
+            background-color:$back-color;
+            top: 0;
+                 .header-menu {
+                    .logo a, .menu-hover{
+                        font-size:14px}
+                }
    
    
-}
-header .header-menu .menu-app .container .col-xs-12 nav .menu {
-    max-width: 200px;
-}
+        }
+        header .header-menu .menu-app .container .col-xs-12 nav .menu {
+            max-width: 200px;
+        }
 
-.block{
-    padding: 15px 0;
-}
-.block-title{
-    h1{
-    font-size: 64px;
-    }
-}
-.learn-more button{
-    width: 100%;
-}
+        .block{
+             padding: 15px 0;
+        }
+        .block-title{
+            h1{
+            font-size: 64px;
+            }
+        }
+        .learn-more button{
+            width: 100%;
+        }
 
-.contact-info{
-    button{
-        width:98%;
+        .contact-info{
+            button{
+                 width:98%;
+            }
+        }
+        .block-title-2 .box{
+            box-sizing: border-box;
+            padding: 16px;
+        }
     }
-}
-.block-title-2 .box{
-    box-sizing: border-box;
-    padding: 16px;
-}
 }
 
 
