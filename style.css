@@ -420,235 +420,6 @@ header .header-menu .menu-app .container .col-xs-12 nav .nav-mobile-menu span:nt
   background-color: rgba(255, 255, 255, 0.075);
 }
 
-section.block .block-alt-third {
-  padding: 80px 20px;
-}
-section.block .block-alt-third .block-bk-flex {
-  display: flex;
-}
-section.block .block-alt-third .block-bk-flex .block-bk {
-  margin: 20px;
-  width: 100%;
-}
-section.block .block-alt-third .block-bk-flex .block-bk h2, section.block .block-alt-third .block-bk-flex .block-bk h3, section.block .block-alt-third .block-bk-flex .block-bk h4, section.block .block-alt-third .block-bk-flex .block-bk h5, section.block .block-alt-third .block-bk-flex .block-bk h6, section.block .block-alt-third .block-bk-flex .block-bk p {
-  padding: 15px 0px;
-  line-height: 25px;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .title.pad {
-  padding-right: 25px;
-  line-height: 25px;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .title.pad ul li, section.block .block-alt-third .block-bk-flex .block-bk .title.pad ol li {
-  padding-left: 8px;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .title ul {
-  list-style: disc;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .title ol {
-  list-style: decimal;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .title .list-alt {
-  list-style: none;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .title .icons {
-  display: flex;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .title .icons .twitter {
-  width: 35px;
-  height: 35px;
-  background: url(images/ball.png) no-repeat center;
-  border: none;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .title .icons .facebook {
-  width: 35px;
-  height: 35px;
-  background: url(images/face-btn.png) no-repeat center;
-  border: none;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .title .icons .bird {
-  width: 35px;
-  height: 35px;
-  background: url(images/bird-btn.png) no-repeat center;
-  border: none;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .title dd {
-  margin-left: 2em;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .title blockquote {
-  border-left: solid 4px;
-  font-style: italic;
-  margin: 0 0 32px 0;
-  padding: 4px 0 4px 32px;
-  border-left-color: rgba(144, 144, 144, 0.25);
-  line-height: 25px;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .table table {
-  width: 100%;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .table table thead {
-  font-size: 15px;
-  font-weight: bold;
-  text-align: left;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .table table thead th {
-  padding: 0 10px 10px 10px;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .table table tbody {
-  font-size: 15px;
-  text-align: left;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .table table tbody tr {
-  border: solid 1px;
-  border-left: 0;
-  border-right: 0;
-  border-color: rgba(144, 144, 144, 0.25);
-}
-section.block .block-alt-third .block-bk-flex .block-bk .table table tbody tr td {
-  padding: 10px;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .table table tbody tr:nth-child(2n+1) {
-  background-color: rgba(144, 144, 144, 0.075);
-}
-section.block .block-alt-third .block-bk-flex .block-bk .table table tfoot td {
-  padding: 10px;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .block-style {
-  max-width: -webkit-fill-available;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .block-style .action {
-  display: flex;
-  align-items: center;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .block-style .action li {
-  margin: 25px 15px 25px 0px;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .block-style .action li a.button, section.block .block-alt-third .block-bk-flex .block-bk .block-style .action li span.button, section.block .block-alt-third .block-bk-flex .block-bk .block-style .action li input.button {
-  padding: 10px 25px;
-  border-radius: 4px;
-  border: 0;
-  cursor: pointer;
-  font-weight: bold;
-  height: 40px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  background-color: #5a5a5a;
-  color: #fff;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .block-style .action li a.button.special, section.block .block-alt-third .block-bk-flex .block-bk .block-style .action li span.button.special, section.block .block-alt-third .block-bk-flex .block-bk .block-style .action li input.button.special {
-  background-color: #f64242;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .block-style .action li a.button.btn-alt, section.block .block-alt-third .block-bk-flex .block-bk .block-style .action li span.button.btn-alt, section.block .block-alt-third .block-bk-flex .block-bk .block-style .action li input.button.btn-alt {
-  background-color: transparent;
-  box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
-}
-section.block .block-alt-third .block-bk-flex .block-bk .block-style .action li a.button.big, section.block .block-alt-third .block-bk-flex .block-bk .block-style .action li span.button.big, section.block .block-alt-third .block-bk-flex .block-bk .block-style .action li input.button.big {
-  font-size: 26px;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .block-style .action li a.button.small, section.block .block-alt-third .block-bk-flex .block-bk .block-style .action li span.button.small, section.block .block-alt-third .block-bk-flex .block-bk .block-style .action li input.button.small {
-  font-size: 12px;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .block-style .action li a.button.fit, section.block .block-alt-third .block-bk-flex .block-bk .block-style .action li span.button.fit, section.block .block-alt-third .block-bk-flex .block-bk .block-style .action li input.button.fit {
-  padding: 10px 80px;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .block-style .action li a.button.fit-s, section.block .block-alt-third .block-bk-flex .block-bk .block-style .action li span.button.fit-s, section.block .block-alt-third .block-bk-flex .block-bk .block-style .action li input.button.fit-s {
-  padding: 10px 50px;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .block-style .action li a.button.disabled, section.block .block-alt-third .block-bk-flex .block-bk .block-style .action li span.button.disabled, section.block .block-alt-third .block-bk-flex .block-bk .block-style .action li input.button.disabled {
-  opacity: 0.25;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .block-style form .block-bk:first-child {
-  margin-left: 0px;
-  margin-right: 20px;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .block-style form .block-bk input {
-  width: 100%;
-  height: 40px;
-  background: rgba(144, 144, 144, 0.075);
-  border-color: rgba(144, 144, 144, 0.25);
-  padding: 0px 10px;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .block-style form .block-bk .block-radio {
-  padding: 15px 15px 15px 0px;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .block-style form .select select {
-  width: 100%;
-  height: 40px;
-  background: rgba(144, 144, 144, 0.075);
-  border-color: rgba(144, 144, 144, 0.25);
-  color: #fff;
-  padding: 0px 10px;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .block-style form .block-bk-flex {
-  justify-content: space-between;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .block-style form .block-bk-flex .block-radio {
-  padding: 15px 15px 15px 0px;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .block-style form .block-textarea {
-  margin: 20px 0px;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .block-style form .block-textarea textarea {
-  width: 95%;
-  background: rgba(144, 144, 144, 0.075);
-  border-color: rgba(144, 144, 144, 0.25);
-  color: #fff;
-  padding: 10px 16px;
-  border-radius: 4px;
-  line-height: 25px;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .block-style form .block-textarea textarea::placeholder {
-  font-size: 14px;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .img {
-  border-radius: 4px;
-  display: block;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .image.left {
-  float: left;
-  margin: 0 25px 16px 0;
-  top: 4px;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .image.right {
-  float: right;
-  margin: 0 0 16px 25px;
-  top: 4px;
-}
-section.block .block-alt-third .block-bk-flex .block-bk .box-black {
-  background: black;
-  border-radius: 6px;
-  padding: 64px;
-}
-section.block .block-alt-third .bold {
-  font-weight: bold;
-}
-section.block .block-alt-third .italic {
-  font-style: italic;
-}
-section.block .block-alt-third .sup {
-  vertical-align: super;
-}
-section.block .block-alt-third .sub {
-  vertical-align: sub;
-}
-section.block .block-alt-third .underlined {
-  text-decoration: underline;
-}
-section.block .block-alt-third code {
-  border-radius: 4px;
-  border: solid 1px;
-  font-family: "Courier New", monospace;
-  font-size: 15px;
-  margin: 0 5px;
-  padding: 5px 9px;
-  background: rgba(144, 144, 144, 0.075);
-  border-color: grey;
-}
-section.block .block-alt-third a {
-  color: #f64242;
-  text-decoration: underline;
-}
-
 footer {
   cursor: pointer;
   background: #F64747;
@@ -706,6 +477,275 @@ footer .info-template span {
   color: #fff;
 }
 
+.block-section .block-alt-third {
+  padding: 80px 20px;
+}
+.block-section .block-alt-third .block-min {
+  display: flex;
+  justify-content: space-between;
+}
+.block-section .block-alt-third .block-min .block-bk {
+  margin: 20px;
+  width: 100%;
+}
+.block-section .block-alt-third .block-bk-flex {
+  display: flex;
+}
+.block-section .block-alt-third .block-bk-flex .block-bk {
+  margin: 20px;
+}
+.block-section .block-alt-third .block-bk-flex .col-md-6 .title.pad {
+  padding-right: 25px;
+  line-height: 25px;
+}
+.block-section .block-alt-third .block-bk-flex .col-md-6 .title.pad:first-child {
+  margin-left: 20px;
+}
+.block-section .block-alt-third .block-bk-flex .col-md-6 .title.pad ul li, .block-section .block-alt-third .block-bk-flex .col-md-6 .title.pad ol li {
+  padding-left: 8px;
+}
+.block-section .block-alt-third .block-bk-flex .col-md-6 .title ul {
+  list-style: disc;
+}
+.block-section .block-alt-third .block-bk-flex .col-md-6 .title ol {
+  list-style: decimal;
+}
+.block-section .block-alt-third .block-bk-flex .col-md-6 .title .list-alt {
+  list-style: none;
+}
+.block-section .block-alt-third .block-bk-flex .col-md-6 .title .icons {
+  display: flex;
+  list-style: none;
+}
+.block-section .block-alt-third .block-bk-flex .col-md-6 .title .icons .twitter {
+  width: 35px;
+  height: 35px;
+  background: url(images/ball.png) no-repeat center;
+  border: none;
+}
+.block-section .block-alt-third .block-bk-flex .col-md-6 .title .icons .facebook {
+  width: 35px;
+  height: 35px;
+  background: url(images/face-btn.png) no-repeat center;
+  border: none;
+}
+.block-section .block-alt-third .block-bk-flex .col-md-6 .title .icons .bird {
+  width: 35px;
+  height: 35px;
+  background: url(images/bird-btn.png) no-repeat center;
+  border: none;
+}
+.block-section .block-alt-third .block-bk-flex .col-md-6 .title .icons span {
+  display: none;
+}
+.block-section .block-alt-third .block-bk-flex .col-md-6 .title dd {
+  margin-left: 2em;
+}
+.block-section .block-alt-third .block-bk-flex .col-md-6 .title blockquote {
+  border-left: solid 4px;
+  font-style: italic;
+  margin: 0 0 32px 0;
+  padding: 4px 0 4px 32px;
+  border-left-color: rgba(144, 144, 144, 0.25);
+  line-height: 25px;
+}
+.block-section .block-alt-third .block-bk-flex .col-md-6 .table table {
+  width: 100%;
+}
+.block-section .block-alt-third .block-bk-flex .col-md-6 .table table thead {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+.block-section .block-alt-third .block-bk-flex .col-md-6 .table table thead th {
+  padding: 0 10px 10px 10px;
+}
+.block-section .block-alt-third .block-bk-flex .col-md-6 .table table tbody {
+  font-size: 15px;
+  text-align: left;
+}
+.block-section .block-alt-third .block-bk-flex .col-md-6 .table table tbody tr {
+  border: solid 1px;
+  border-left: 0;
+  border-right: 0;
+  border-color: rgba(144, 144, 144, 0.25);
+}
+.block-section .block-alt-third .block-bk-flex .col-md-6 .table table tbody tr td {
+  padding: 10px;
+}
+.block-section .block-alt-third .block-bk-flex .col-md-6 .table table tbody tr:nth-child(2n+1) {
+  background-color: rgba(144, 144, 144, 0.075);
+}
+.block-section .block-alt-third .block-bk-flex .col-md-6 .table table tfoot td {
+  padding: 10px;
+}
+.block-section .block-alt-third .col-md-6 .block-bk-table {
+  margin: 20px;
+}
+.block-section .block-alt-third .col-md-6 .action {
+  display: flex;
+  align-items: center;
+}
+.block-section .block-alt-third .col-md-6 .action li {
+  margin: 25px 15px 25px 0px;
+}
+.block-section .block-alt-third .col-md-6 .action li a.button, .block-section .block-alt-third .col-md-6 .action li span.button, .block-section .block-alt-third .col-md-6 .action li input.button {
+  padding: 10px 25px;
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #5a5a5a;
+  color: #fff;
+}
+.block-section .block-alt-third .col-md-6 .action li a.button:hover, .block-section .block-alt-third .col-md-6 .action li span.button:hover, .block-section .block-alt-third .col-md-6 .action li input.button:hover {
+  background-color: #676767;
+}
+.block-section .block-alt-third .col-md-6 .action li a.button.special, .block-section .block-alt-third .col-md-6 .action li span.button.special, .block-section .block-alt-third .col-md-6 .action li input.button.special {
+  background-color: #f64242;
+}
+.block-section .block-alt-third .col-md-6 .action li a.button.special:hover, .block-section .block-alt-third .col-md-6 .action li span.button.special:hover, .block-section .block-alt-third .col-md-6 .action li input.button.special:hover {
+  background-color: #f75f5f;
+}
+.block-section .block-alt-third .col-md-6 .action li a.button.btn-alt, .block-section .block-alt-third .col-md-6 .action li span.button.btn-alt, .block-section .block-alt-third .col-md-6 .action li input.button.btn-alt {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
+}
+.block-section .block-alt-third .col-md-6 .action li a.button.btn-alt:hover, .block-section .block-alt-third .col-md-6 .action li span.button.btn-alt:hover, .block-section .block-alt-third .col-md-6 .action li input.button.btn-alt:hover {
+  background-color: rgba(144, 144, 144, 0.075);
+}
+.block-section .block-alt-third .col-md-6 .action li a.button.big, .block-section .block-alt-third .col-md-6 .action li span.button.big, .block-section .block-alt-third .col-md-6 .action li input.button.big {
+  font-size: 26px;
+}
+.block-section .block-alt-third .col-md-6 .action li a.button.small, .block-section .block-alt-third .col-md-6 .action li span.button.small, .block-section .block-alt-third .col-md-6 .action li input.button.small {
+  font-size: 12px;
+}
+.block-section .block-alt-third .col-md-6 .action li a.button.fit, .block-section .block-alt-third .col-md-6 .action li span.button.fit, .block-section .block-alt-third .col-md-6 .action li input.button.fit {
+  padding: 10px 50px;
+}
+.block-section .block-alt-third .col-md-6 .action li a.button.fit-s, .block-section .block-alt-third .col-md-6 .action li span.button.fit-s, .block-section .block-alt-third .col-md-6 .action li input.button.fit-s {
+  padding: 10px 30px;
+}
+.block-section .block-alt-third .col-md-6 .action li a.button.disabled, .block-section .block-alt-third .col-md-6 .action li span.button.disabled, .block-section .block-alt-third .col-md-6 .action li input.button.disabled {
+  opacity: 0.25;
+}
+.block-section .block-alt-third .col-md-6 form .block-bk:first-child {
+  margin-left: 0px;
+  margin-right: 20px;
+}
+.block-section .block-alt-third .col-md-6 form .block-bk input {
+  width: 100%;
+  height: 40px;
+  filter: hue-rotate(130deg);
+  background: rgba(144, 144, 144, 0.075);
+  border-color: rgba(144, 144, 144, 0.25);
+  padding: 0px 10px;
+}
+.block-section .block-alt-third .col-md-6 form .select select {
+  width: 100%;
+  height: 40px;
+  background: rgba(144, 144, 144, 0.075);
+  border-color: rgba(144, 144, 144, 0.25);
+  color: #fff;
+  padding: 0px 10px;
+}
+.block-section .block-alt-third .col-md-6 form .block-min {
+  justify-content: space-between;
+}
+.block-section .block-alt-third .col-md-6 form .block-min .block-radio {
+  padding: 15px 15px 15px 0px;
+}
+.block-section .block-alt-third .col-md-6 form .block-min .block-radio input {
+  width: 15px;
+  height: 15px;
+  filter: hue-rotate(130deg);
+}
+.block-section .block-alt-third .col-md-6 form .block-min .block-bk-input {
+  display: flex;
+}
+.block-section .block-alt-third .col-md-6 form .block-min .block-bk-input input {
+  height: 20px;
+  width: 20px;
+  filter: hue-rotate(130deg);
+}
+.block-section .block-alt-third .col-md-6 form .block-textarea {
+  margin: 20px 0px;
+}
+.block-section .block-alt-third .col-md-6 form .block-textarea textarea {
+  width: 95%;
+  background: rgba(144, 144, 144, 0.075);
+  border-color: rgba(144, 144, 144, 0.25);
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 4px;
+  line-height: 25px;
+}
+.block-section .block-alt-third .col-md-6 form .block-textarea textarea::placeholder {
+  font-size: 14px;
+}
+.block-section .block-alt-third .img {
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+}
+.block-section .block-alt-third .image.left {
+  float: left;
+  margin: 0 25px 16px 0;
+  top: 4px;
+}
+.block-section .block-alt-third .image.left img {
+  border-radius: 4px;
+}
+.block-section .block-alt-third .image.right {
+  float: right;
+  margin: 0 0 16px 25px;
+  top: 4px;
+}
+.block-section .block-alt-third .image.right img {
+  border-radius: 4px;
+}
+.block-section .block-alt-third .box-black {
+  background: black;
+  border-radius: 6px;
+  padding: 64px;
+}
+.block-section h2, .block-section h3, .block-section h4, .block-section h5, .block-section h6, .block-section p {
+  padding: 15px 0px;
+  line-height: 25px;
+}
+.block-section .bold {
+  font-weight: bold;
+}
+.block-section .italic {
+  font-style: italic;
+}
+.block-section .sup {
+  vertical-align: super;
+}
+.block-section .sub {
+  vertical-align: sub;
+}
+.block-section .underlined {
+  text-decoration: underline;
+}
+.block-section code {
+  border-radius: 4px;
+  border: solid 1px;
+  font-family: "Courier New", monospace;
+  font-size: 15px;
+  margin: 0 5px;
+  padding: 5px 9px;
+  background: rgba(144, 144, 144, 0.075);
+  border-color: grey;
+}
+.block-section a {
+  color: #f64242;
+  text-decoration: underline;
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
@@ -742,6 +782,14 @@ footer .info-template span {
 
   .contact-info {
     padding: 48px 0 16px 0;
+  }
+
+  section.block-section .block-alt-third .col-md-6 form .block-bk-flex .block-min {
+    display: flex;
+  }
+
+  .block-section .block-alt-third .box-black {
+    padding: 32px;
   }
 }
 @media (min-width: 992px) {
@@ -782,6 +830,10 @@ footer .info-template span {
     display: block;
     width: 100%;
   }
+
+  section.block-section .block-alt-third .block-bk-flex {
+    display: block;
+  }
 }
 @media (min-width: 1200px) {
   .container {
@@ -789,6 +841,9 @@ footer .info-template span {
   }
 }
 @media (max-width: 480px) {
+  body {
+    width: fit-content;
+  }
   body header {
     background-color: #0E0E0E;
     top: 0;
@@ -813,6 +868,35 @@ footer .info-template span {
   }
   body .block-title-2 .box {
     box-sizing: border-box;
+    padding: 16px;
+  }
+
+  .block-section .block-alt-third .block-min {
+    margin-right: 25px;
+    display: block;
+  }
+  .block-section .block-alt-third .block-min .pad:nth-child(2) {
+    margin-left: 20px;
+  }
+  .block-section .block-alt-third .block-min .bk-tab {
+    margin-left: 0px;
+  }
+
+  .block-section .block-alt-third .col-md-6 .action {
+    display: block;
+  }
+  .block-section .block-alt-third .col-md-6 .action .big, .block-section .block-alt-third .col-md-6 .action .disabled {
+    display: none;
+  }
+  .block-section .block-alt-third .col-md-6 .action li {
+    display: flex;
+    width: 100%;
+  }
+  .block-section .block-alt-third .col-md-6 .action li a {
+    width: 100%;
+  }
+
+  .block-section .block-alt-third .box-black {
     padding: 16px;
   }
 }

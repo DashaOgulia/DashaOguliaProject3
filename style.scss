@@ -420,310 +420,7 @@ header{
 }
 
 
-section {
 
-    &.block{
-        .block-alt-third{
-            padding:80px 20px;
-                .block-bk-flex{
-                    display: flex;
-                        .block-bk{
-                            margin:20px;
-                            width:100%;
-                            
-                            
-                             h2, h3, h4, h5, h6, p{
-                                 padding:15px 0px;
-                                 line-height: 25px;
-
-                             }
-                             .title{
-                                 &.pad{
-                                     padding-right:25px;
-                                     line-height: 25px;
-
-                                     ul,ol{
-                                         
-                                         li{
-                                            padding-left: 8px;
-                                         }
-                                     }
-                                }
-                                    ul {
-                                        list-style: disc;
-                                    }
-                                    ol{
-                                        list-style: decimal;
-                                    }
-                                    .list-alt{
-                                        list-style: none;
-                                        
-                                    }
-                                    .icons{
-                                        display: flex;
-                                        
-
-                                        .twitter{
-                                            width:35px;
-                                            height:35px;
-                                            background:url(images/ball.png) no-repeat center;
-                                           
-                                            border:none;
-                                        }
-                                        .facebook{
-                                            width:35px;
-                                            height:35px;
-                                            background:url(images/face-btn.png) no-repeat center;
-                                            border:none;
-                                        }
-                                        .bird{
-                                            width: 35px;
-                                            height:35px;
-                                            background:url(images/bird-btn.png) no-repeat center;
-                                            border:none;
-                                        }
-                                    }
-
-                                    dd{
-                                        margin-left: 2em;
-                                    }
-                                    blockquote{
-                                        border-left: solid 4px;
-                                        font-style: italic;
-                                        margin: 0 0 32px 0;
-                                        padding: 4px 0 4px 32px;
-                                        border-left-color: rgba(144, 144, 144, 0.25);
-                                        line-height: 25px;
-                                    }
-                                   
-                            }
-                            .table{
-                                table{
-                                    width:100%;
-                                        thead{
-                                            font-size: 15px;
-                                            font-weight: bold;
-                                            text-align: left;
-
-                                            th{
-                                                padding: 0 10px 10px 10px;
-                                            }
-                                        }
-                                        tbody{
-                                            font-size: 15px;
-                                            text-align: left;
-                                            tr{
-                                                
-                                                border: solid 1px;
-                                                border-left: 0;
-                                                border-right: 0;
-                                                border-color: rgba(144, 144, 144, 0.25);
-                                                    td{
-                                                        padding: 10px;
-                                                    }
-
-                                                &:nth-child(2n + 1){
-                                                    background-color: rgba(144, 144, 144, 0.075);
-                                                }
-                                            }
-                                        }
-                                        tfoot{
-                                            td{
-                                                padding:10px;
-                                            }
-                                        }
-                                    }
-                                }
-                               
-
-
-                            
-                           .block-style{
-                                max-width: -webkit-fill-available;
-                               .action{
-                                   display:flex;
-                                   align-items: center;
-                                        li{
-                                            margin:25px 15px 25px 0px;
-                                            
-
-                                            a, span, input{
-
-                                                &.button{
-                                                    padding: 10px 25px;
-                                                    border-radius: 4px;
-                                                    border: 0;
-                                                    cursor: pointer;
-                                                    font-weight: bold;
-                                                    height: 40px;
-                                                    text-align: center;
-                                                    text-decoration: none;
-                                                    text-transform: uppercase;
-                                                    background-color: #5a5a5a;
-                                                    color: $text-color;
-                                                       &.special{
-                                                        background-color: $primary-color;
-                                                    
-                                                       }
-                                                       &.btn-alt{
-                                                        background-color: transparent;
-                                                        box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
-                                                       }
-                                                       &.big{
-                                                           font-size: 26px;
-                                                       }
-                                                       &.small{
-                                                        font-size: 12px;
-
-                                                       }
-                                                       &.fit{
-                                                        padding: 10px 80px;
-                                                       
-                                                       }
-                                                       &.fit-s{
-                                                        padding: 10px 50px;
-
-                                                       }
-                                                       &.disabled{
-                                                        opacity: 0.25; 
-                                                       }
-                                                      
-                                                 }
-
-                                                
-                                            }
-
-                                        }
-                                  
-                               }
-                               form{
-                                
-                                    .block-bk{
-                                        &:first-child{
-                                           margin-left:0px;
-                                           margin-right: 20px;
-                                          
-                                            
-                                        }
-                                        input{
-                                            width: 100%;
-                                            height: 40px;
-                                            background: rgba(144, 144, 144, 0.075);
-                                            border-color: rgba(144, 144, 144, 0.25);
-                                            padding: 0px 10px;  
-                                            
-                                           
-                                        }
-                                        .block-radio{
-                                            padding: 15px 15px 15px 0px;
-                                        }
-                                        
-
-                                    }
-                                    .select{
-
-                                        select{
-                                        width: 100%;
-                                        height: 40px;
-                                        background: rgba(144, 144, 144, 0.075);
-                                        border-color: rgba(144, 144, 144, 0.25); 
-                                        color:$text-color;
-                                        padding: 0px 10px;
-
-                                        }
-                                    }
-                                    .block-bk-flex{
-                                        justify-content: space-between;
-                                       
-                                        .block-radio{
-                                            padding: 15px 15px 15px 0px;
-                                        }
-                                    }
-
-                                    .block-textarea{
-                                        margin: 20px 0px;
-
-                                        textarea{
-                                            width:95%;
-                                            background: rgba(144, 144, 144, 0.075);
-                                            border-color: rgba(144, 144, 144, 0.25); 
-                                            color:$text-color;
-                                            padding: 10px 16px;
-                                            border-radius: 4px;
-                                            line-height: 25px;
-                                                &::placeholder{
-                                                    font-size:14px;
-                                                    
-
-                                                }
-                                            
-
-                                        }
-                                        
-                                    }
-                                    
-
-                                }
-
-                           }   
-                           .img{
-                            border-radius: 4px;
-                            display: block;
-                            }
-                            .image.left{
-                                float: left;
-                                margin: 0 25px 16px 0;
-                                top: 4px;
-                             }  
-
-                             .image.right{
-                                float: right;
-                                margin: 0 0 16px 25px;
-                                top: 4px;
-                             }  
-                             .box-black{
-                                background: black;
-                                border-radius: 6px;
-                                padding: 64px;
-                             }
-                        }
-                                       
-                }
-                                   
-                                 
-            .bold{
-                font-weight: bold;
-            }
-            .italic{
-                font-style:italic;
-            }
-            .sup{
-                vertical-align: super;
-            }
-            .sub{
-                vertical-align: sub;
-            }
-            .underlined{
-                text-decoration: underline;
-            }
-            code{
-                border-radius: 4px;
-                border: solid 1px;
-                font-family: "Courier New", monospace;
-                font-size: 15px;
-                margin: 0 5px;
-                padding: 5px 9px;
-                background: rgba(144, 144, 144, 0.075);
-                border-color: grey;
-            }
-            a{    
-                color:$primary-color;
-                text-decoration: underline;
-            }
-        }
-                             
-    }
-}
         
 
 
@@ -785,6 +482,368 @@ footer{
         }
 }
 
+
+
+    .block-section{ 
+        .block-alt-third{
+            padding:80px 20px;
+
+            .block-min{
+                display: flex;
+                justify-content: space-between;
+                .block-bk{
+                    margin:20px;
+                    width:100%;                            
+                }
+            }
+            
+                .block-bk-flex{
+                    display: flex;
+                      .block-bk{
+                            margin:20px;
+                                                      
+                        }
+                .col-md-6{
+
+                    .title{
+                        
+                        &.pad{
+                            padding-right:25px;
+                            line-height: 25px;
+
+                            &:first-child{
+                                margin-left: 20px;
+                            }
+                            
+
+                            ul,ol{
+                                
+                                li{
+                                   padding-left: 8px;
+                                }
+                            }
+                       }
+                           ul {
+                               list-style: disc;
+                           }
+                           ol{
+                               list-style: decimal;
+                           }
+                           .list-alt{
+                               list-style: none;
+                               
+                           }
+                           .icons{
+                               display: flex;
+                               list-style: none;
+                               
+
+                               .twitter{
+                                   width:35px;
+                                   height:35px;
+                                   background: url(images/ball.png) no-repeat center;
+                                   border:none;
+                                  
+                               }
+                               .facebook{
+                                   width:35px;
+                                   height:35px;
+                                   background:url(images/face-btn.png) no-repeat center;
+                                   border:none;
+                               }
+                               .bird{
+                                   width: 35px;
+                                   height:35px;
+                                   background:url(images/bird-btn.png) no-repeat center;
+                                   border:none;
+                               }
+
+                               span{
+                                   display: none;
+                               }
+                              
+                               
+                           }
+
+                           dd{
+                               margin-left: 2em;
+                           }
+                           blockquote{
+                               border-left: solid 4px;
+                               font-style: italic;
+                               margin: 0 0 32px 0;
+                               padding: 4px 0 4px 32px;
+                               border-left-color: rgba(144, 144, 144, 0.25);
+                               line-height: 25px;
+                           }
+                          
+                   }
+                   .table{
+                       table{
+                           width:100%;
+                               thead{
+                                   font-size: 15px;
+                                   font-weight: bold;
+                                   text-align: left;
+
+                                   th{
+                                       padding: 0 10px 10px 10px;
+                                   }
+                               }
+                               tbody{
+                                   font-size: 15px;
+                                   text-align: left;
+                                   tr{
+                                       
+                                       border: solid 1px;
+                                       border-left: 0;
+                                       border-right: 0;
+                                       border-color: rgba(144, 144, 144, 0.25);
+                                           td{
+                                               padding: 10px;
+                                           }
+
+                                       &:nth-child(2n + 1){
+                                           background-color: rgba(144, 144, 144, 0.075);
+                                       }
+                                   }
+                               }
+                               tfoot{
+                                   td{
+                                       padding:10px;
+                                   }
+                               }
+                           }
+                       } 
+                }
+                             
+                }
+                .col-md-6{
+                    .block-bk-table{
+                        margin:20px;
+                    }
+                    
+                   .action{
+                       display:flex;
+                       align-items: center;
+                            li{
+                                margin:25px 15px 25px 0px;
+                                
+
+                                a, span, input{
+
+                                    &.button{
+                                        padding: 10px 25px;
+                                        border-radius: 4px;
+                                        border: 0;
+                                        cursor: pointer;
+                                        font-weight: bold;
+                                        text-align: center;
+                                        text-decoration: none;
+                                        text-transform: uppercase;
+                                        background-color: #5a5a5a;
+                                        color: $text-color;
+
+                                            &:hover{
+                                                background-color: #676767;
+                                            }
+                                           &.special{
+                                            background-color: $primary-color;
+                                            &:hover{
+                                                background-color: #f75f5f;
+                                            }
+                                        
+                                           }
+                                           &.btn-alt{
+                                            background-color: transparent;
+                                            box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
+
+                                            &:hover{
+                                                background-color:rgba(144, 144, 144, 0.075);
+                                            }
+                                           }
+                                           &.big{
+                                               font-size: 26px;
+                                           }
+                                           &.small{
+                                            font-size: 12px;
+
+                                           }
+                                           &.fit{
+                                            padding: 10px 50px;
+                                           
+                                           }
+                                           &.fit-s{
+                                            padding: 10px 30px;
+
+                                           }
+                                           &.disabled{
+                                            opacity: 0.25; 
+                                           
+                                           }
+                                          
+                                     }
+
+                                    
+                                }
+
+                            }
+                      
+                   }
+                   form{
+                    
+                        .block-bk{
+                            &:first-child{
+                               margin-left:0px;
+                               margin-right: 20px;
+                              
+                                
+                            }
+                            input{
+                                width: 100%;
+                                height: 40px;
+                                filter: hue-rotate(130deg);
+                                background: rgba(144, 144, 144, 0.075);
+                                border-color: rgba(144, 144, 144, 0.25);
+                                padding: 0px 10px;  
+                                
+                               
+                            }
+                            
+                            
+
+                        }
+                        .select{
+
+                            select{
+                            width: 100%;
+                            height: 40px;
+                            background: rgba(144, 144, 144, 0.075);
+                            border-color: rgba(144, 144, 144, 0.25); 
+                            color:$text-color;
+                            padding: 0px 10px;
+
+                            }
+                        }
+                        .block-min{
+                            justify-content: space-between;
+                           
+                            .block-radio{
+                                padding: 15px 15px 15px 0px;
+                                
+                                    input{
+                                        width: 15px;
+                                        height: 15px;
+                                        filter: hue-rotate(130deg);
+                                    }
+    
+                                
+                            }
+                            .block-bk-input{
+                                display: flex;
+
+                                input{
+                                    height:20px;
+                                    width:20px;
+                                    filter: hue-rotate(130deg);
+
+                                }
+                            }
+
+                        }
+
+                        
+                        .block-textarea{
+                            margin: 20px 0px;
+
+                            textarea{
+                                width:95%;
+                                background: rgba(144, 144, 144, 0.075);
+                                border-color: rgba(144, 144, 144, 0.25); 
+                                color:$text-color;
+                                padding: 10px 16px;
+                                border-radius: 4px;
+                                line-height: 25px;
+                                    &::placeholder{
+                                        font-size:14px;
+                                        
+
+                                    }
+                                
+
+                            }
+                            
+                        }
+                        
+
+                    }
+
+               }   
+               .img{
+                border-radius: 4px;
+                display: block;
+                width:100%;
+                }
+                .image.left{
+                    float: left;
+                    margin: 0 25px 16px 0;
+                    top: 4px;
+                    img{
+                        border-radius: 4px;
+                    }
+                 }  
+
+                 .image.right{
+                    float: right;
+                    margin: 0 0 16px 25px;
+                    top: 4px;
+                    img{
+                        border-radius: 4px;
+                    }
+                 }  
+                 .box-black{
+                    background: black;
+                    border-radius: 6px;
+                    padding: 64px;
+                 }
+            }
+                           
+     
+h2, h3, h4, h5, h6, p{
+        padding:15px 0px;
+        line-height: 25px;
+    }                              
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style:italic;
+}
+.sup{
+    vertical-align: super;
+}
+.sub{
+    vertical-align: sub;
+}
+.underlined{
+    text-decoration: underline;
+}
+code{
+    border-radius: 4px;
+    border: solid 1px;
+    font-family: "Courier New", monospace;
+    font-size: 15px;
+    margin: 0 5px;
+    padding: 5px 9px;
+    background: rgba(144, 144, 144, 0.075);
+    border-color: grey;
+}
+a{    
+    color:$primary-color;
+    text-decoration: underline;
+}
+}
+
     
 
 
@@ -831,6 +890,17 @@ footer{
 .contact-info{
     padding: 48px 0 16px 0;
 }
+section.block-section .block-alt-third .col-md-6 form .block-bk-flex .block-min{
+    display: flex;
+
+}
+
+.block-section .block-alt-third .box-black{
+    padding:32px;
+}
+
+     
+ 
 
 }
 
@@ -879,6 +949,10 @@ footer{
    }
      
 }
+
+section.block-section .block-alt-third .block-bk-flex{
+    display:block;
+}
 }
 @media(min-width:1200px){
     .container{
@@ -889,6 +963,7 @@ footer{
 
 @media (max-width: 480px){
     body{
+        width: fit-content;
     
         header{
             background-color:$back-color;
@@ -926,6 +1001,35 @@ footer{
             padding: 16px;
         }
     }
+    .block-section .block-alt-third .block-min{
+        margin-right: 25px;
+        display: block;
+         .pad:nth-child(2){
+            margin-left: 20px;
+         }
+         .bk-tab{
+            margin-left: 0px;
+         }
+    }
+
+    .block-section .block-alt-third .col-md-6 .action {
+        display: block;
+        .big, .disabled{
+            display: none;
+        }
+        li{
+            display: flex;
+            width:100%;
+
+            a{
+                width:100%;
+            }
+        }
+    }
+    .block-section .block-alt-third .box-black{
+        padding:16px;
+    }
+   
 }
 
 
