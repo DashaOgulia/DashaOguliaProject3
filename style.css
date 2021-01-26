@@ -480,6 +480,28 @@ footer .info-template span {
 .block-section .block-alt-third {
   padding: 80px 20px;
 }
+.block-section .block-alt-third .tab-title-items {
+  justify-content: space-around;
+}
+.block-section .block-alt-third .tab-title-items .tab-title-item {
+  padding: 10px 20px;
+  border: 2px solid rgba(144, 144, 144, 0.25);
+  border-radius: 5px;
+  margin: 10px;
+}
+.block-section .block-alt-third .tab-title-items .tab-title-item:hover, .block-section .block-alt-third .tab-title-items .tab-title-item .active {
+  background-color: rgba(144, 144, 144, 0.075);
+}
+.block-section .block-alt-third .tab-title-item:hover, .block-section .block-alt-third .active {
+  background-color: #f64242;
+  color: #fff;
+}
+.block-section .block-alt-third .tab-container .hide {
+  display: none;
+}
+.block-section .block-alt-third .tab-container .show {
+  display: block;
+}
 .block-section .block-alt-third .block-min {
   display: flex;
   justify-content: space-between;

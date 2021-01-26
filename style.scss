@@ -488,6 +488,39 @@ footer{
         .block-alt-third{
             padding:80px 20px;
 
+
+            .tab-title-items{
+                justify-content: space-around;
+                .tab-title-item{
+                    padding:10px 20px;
+                    border: 2px solid rgba(144, 144, 144, 0.25);
+                    border-radius:5px;
+                    margin:10px;
+                    &:hover, .active{
+                        background-color:rgba(144, 144, 144, 0.075);
+                        
+                        }
+
+                }
+
+            }
+            .tab-title-item:hover, .active{
+                background-color:$primary-color;
+                color:$text-color;
+            }
+        
+            .tab-container{
+                .hide{
+                    display:none;
+                }
+                .show{
+                    display:block;
+                }
+                
+            }
+
+        
+
             .block-min{
                 display: flex;
                 justify-content: space-between;
@@ -903,6 +936,9 @@ section.block-section .block-alt-third .col-md-6 form .block-bk-flex .block-min{
  
 
 }
+
+
+
 
 
 
