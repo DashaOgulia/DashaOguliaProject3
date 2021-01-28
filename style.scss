@@ -46,6 +46,7 @@ h1, h2, h3, h4, h5, h6{
     padding-left:15px;
     padding-right:15px;
     margin:auto;
+  
     
         .row{
     display:flex;
@@ -56,6 +57,8 @@ h1, h2, h3, h4, h5, h6{
    
 }
 }
+
+ 
 .center{
     justify-content: center;
     text-align: -webkit-center;
@@ -279,6 +282,18 @@ header{
             line-height: 25px;
             border-radius: 5px;
 
+            .slider-block{
+                display: grid;
+
+                .slick-prev:before, .slick-next:before{
+                    font-size:90px;
+                }
+                .slick-prev, .slick-next {
+                    top:100%;
+                    width:auto;
+                }
+            }
+
                 .title{
                     margin:15px 0px;
 
@@ -367,6 +382,7 @@ header{
      }
 
 .contact-info{
+    background: #F64747;
     h2{
     margin-bottom: 32px;
     text-align: center;
@@ -813,11 +829,10 @@ footer{
                     }
                     
                } 
-              
-
                
-              
-              
+               
+          
+
                .img{
                 border-radius: 4px;
                 display: block;
@@ -847,11 +862,13 @@ footer{
                     border-radius: 6px;
                     padding: 64px;
                  }
+
+                 
             }
 
        
 
-                           
+                                 
      
 h2, h3, h4, h5, h6, p{
         padding:15px 0px;
@@ -903,9 +920,18 @@ a{
         h1{
         font-size: 96px;
         }
+        
         }
         .block-title-2 .box{
             margin:40px;
+        }
+        .contact-info{
+            .block-title-2{
+                padding: 25px 0px;
+            }
+        }
+        .info-template{
+            padding: 20px;
         }
 
         
@@ -933,6 +959,7 @@ a{
 }
 .contact-info{
     padding: 48px 0 16px 0;
+   
 }
 section.block-section .block-alt-third .col-md-6 form .block-bk-flex .block-min{
     display: flex;
@@ -942,6 +969,8 @@ section.block-section .block-alt-third .col-md-6 form .block-bk-flex .block-min{
 .block-section .block-alt-third .box-black{
     padding:32px;
 }
+
+
 
      
  
@@ -995,10 +1024,10 @@ section.block-section .block-alt-third .col-md-6 form .block-bk-flex .block-min{
             width: 100%;
             }   
         }
-        section.block-section .block-alt-third .block-bk-flex{
-            display:block;
-     
-        }
+      
+    }
+    .block-section .block-alt-third .block-bk-flex {
+        display:block;
     }
 }
 
@@ -1078,7 +1107,14 @@ section.block-section .block-alt-third .col-md-6 form .block-bk-flex .block-min{
     .block-section .block-alt-third .box-black{
         padding:16px;
     }
-   
+    .block-section .block-alt-third .image.left {
+        
+        margin: 10px 15px 0px 0px;
+    } 
+    .block-section .block-alt-third .image.right {
+        
+        margin: 10px 0px 0px 10px;
+    } 
 }
 
 
