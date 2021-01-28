@@ -298,11 +298,16 @@ header .header-menu .menu-app .container .col-xs-12 nav .nav-mobile-menu span:nt
   display: grid;
 }
 .block-title-2 .box .slider-block .slick-prev:before, .block-title-2 .box .slider-block .slick-next:before {
-  font-size: 90px;
+  font-size: 70px;
 }
 .block-title-2 .box .slider-block .slick-prev, .block-title-2 .box .slider-block .slick-next {
-  top: 100%;
   width: auto;
+}
+.block-title-2 .box .slider-block .slick-next {
+  right: -75px;
+}
+.block-title-2 .box .slider-block .slick-prev {
+  left: -75px;
 }
 .block-title-2 .box .slider-block .slick-dots li.slick-active button:before {
   color: transparent;
@@ -832,6 +837,15 @@ footer .info-template span {
   .block-title-2 .box {
     box-sizing: border-box;
     padding: 32px;
+  }
+  .block-title-2 .box .slider-block .slick-prev:before, .block-title-2 .box .slider-block .slick-next:before {
+    font-size: 30px;
+  }
+  .block-title-2 .box .slider-block .slick-next {
+    right: -30px;
+  }
+  .block-title-2 .box .slider-block .slick-prev {
+    left: -30px;
   }
 
   .contact-info {

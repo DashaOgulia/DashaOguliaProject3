@@ -286,11 +286,16 @@ header{
                 display: grid;
 
                 .slick-prev:before, .slick-next:before{
-                    font-size:90px;
+                    font-size:70px;
                 }
                 .slick-prev, .slick-next {
-                    top:100%;
                     width:auto;
+                }
+                .slick-next{
+                    right: -75px;
+                }
+                .slick-prev{
+                    left:-75px;
                 }
                 .slick-dots li.slick-active button:before{
                     color: transparent;
@@ -968,6 +973,22 @@ a{
 .box{
     box-sizing: border-box;
     padding: 32px;
+
+    .slider-block{
+  
+
+        .slick-prev:before, .slick-next:before{
+            font-size:30px;
+        }
+        
+        .slick-next{
+            right: -30px;
+        }
+        .slick-prev{
+            left:-30px;
+        }
+       
+    }
 }
 }
 .contact-info{
@@ -982,6 +1003,8 @@ section.block-section .block-alt-third .col-md-6 form .block-bk-flex .block-min{
 .block-section .block-alt-third .box-black{
     padding:32px;
 }
+
+
 
 
 
