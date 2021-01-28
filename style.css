@@ -304,6 +304,17 @@ header .header-menu .menu-app .container .col-xs-12 nav .nav-mobile-menu span:nt
   top: 100%;
   width: auto;
 }
+.block-title-2 .box .slider-block .slick-dots li.slick-active button:before {
+  color: transparent;
+  background: #f64242;
+}
+.block-title-2 .box .slider-block .slick-dots li button:before {
+  color: transparent;
+  border: 2px solid #f64242;
+  border-radius: 50px;
+  width: 10px;
+  height: 10px;
+}
 .block-title-2 .box .title {
   margin: 15px 0px;
 }

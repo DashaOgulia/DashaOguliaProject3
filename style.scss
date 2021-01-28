@@ -292,6 +292,19 @@ header{
                     top:100%;
                     width:auto;
                 }
+                .slick-dots li.slick-active button:before{
+                    color: transparent;
+                    background:$primary-color;
+                   
+                }
+               
+                .slick-dots li button:before {
+                    color: transparent;
+                    border: 2px solid $primary-color;
+                    border-radius: 50px;
+                    width: 10px;
+                  height: 10px;
+                }
             }
 
                 .title{
