@@ -721,6 +721,7 @@ footer{
                                 }
 
                             }
+
                       
                    }
                    form{
@@ -807,16 +808,23 @@ footer{
                             }
                             
                         }
-                        
-
+                   
+                  
                     }
+                    
+               } 
+              
 
-               }   
+               
+              
+              
                .img{
                 border-radius: 4px;
                 display: block;
                 width:100%;
+               
                 }
+               
                 .image.left{
                     float: left;
                     margin: 0 25px 16px 0;
@@ -840,6 +848,9 @@ footer{
                     padding: 64px;
                  }
             }
+
+       
+
                            
      
 h2, h3, h4, h5, h6, p{
@@ -958,42 +969,44 @@ section.block-section .block-alt-third .col-md-6 form .block-bk-flex .block-min{
     header{
         height: 50px;
         line-height: 50px;
-}
-.block-title-2{
-    width:100%;
-    
-}
-
     }
+    .block-title-2{
+        width:100%;
+        
+    }
+
+
 
 .contact-info{
     color: $text-color;
     padding: 60px 0 50px 0;
     background: #F64747;
 }
+}
 /*tablet only*/
 @media(max-width:991px){
     .menu{
         justify-content: space-between;
     }
-  .contact-info{
-      form{
-    .first-block{
-        display: block;
-        width: 100%;
-}
-   }
+    .contact-info{
+        form{
+            .first-block{
+            display: block;
+            width: 100%;
+            }   
+        }
+        section.block-section .block-alt-third .block-bk-flex{
+            display:block;
      
+        }
+    }
 }
 
-section.block-section .block-alt-third .block-bk-flex{
-    display:block;
-}
-}
 @media(min-width:1200px){
     .container{
         max-width:1140px;
     }
+    
 }
 
 
@@ -1075,5 +1088,7 @@ section.block-section .block-alt-third .block-bk-flex{
 
 /*laptop*/
 @media(max-width:1199px){
-   
+    .slick-track {
+        display: contents; 
+}
 }

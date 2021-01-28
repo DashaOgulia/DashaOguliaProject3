@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -356,7 +358,15 @@
                                 <h3>Image</h3>
 
                                 <h4>Fit</h4>
-                                <span><img class="img" src="images/pic01.jpg" alt=""></span>
+
+                                <div class="container">
+                                    <div class="slider-block">
+                                        <div> <span><img class="img" src="images/pic01.jpg" alt=""></span></div>
+                                        <div> <span><img class="img" src="images/pic01.jpg" alt=""></span></div>
+                                        <div> <span><img class="img" src="images/pic01.jpg" alt=""></span></div>
+                                      </div>
+                                </div>
+                               
                                 
 
                                 <h4>Left &amp; Right</h4>
@@ -431,6 +441,9 @@
 
 
 
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
 <script src="app.js"></script>
 
 
